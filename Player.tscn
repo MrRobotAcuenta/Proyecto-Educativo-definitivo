@@ -16,12 +16,9 @@ radius = 41.1847
 height = 57.5347
 
 [node name="Player" type="Area2D"]
-position = Vector2( 134.517, 85.3459 )
+position = Vector2( 153.938, 29.322 )
 scale = Vector2( 0.800001, 0.8 )
 script = ExtResource( 2 )
-__meta__ = {
-"_edit_group_": true
-}
 velocidad = 270
 
 [node name="Sprite_player" type="AnimatedSprite" parent="."]

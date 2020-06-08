@@ -1,16 +1,12 @@
 extends Area2D
 export (int) var velocidad;
 var movimiento = Vector2()
-
-# Declare member variables here. Examples:
-# var a = 2
-# var b = "text"
-# Hola wachou
+var limite
 
 # Called when the node enters the scene tree for the first time.
 func _ready():
 	pass # Replace with function body.
-
+	limite = get_viewport_rect().size
 
 
 func _process(delta):
@@ -28,5 +24,11 @@ func _process(delta):
 		movimiento = movimiento.normalized() * velocidad
 		
 	position += movimiento * delta
+	position.x = clamp(position.x, 0, limite.x)
+	position.y = clamp(position.y, 0, limite.y)
+	
+	if movimiento.x != 0:
+		$Sprite_player.animation = "normal"
+		$Sprite_player.flip_h = movimiento.x < 0
 	
 #	pass
