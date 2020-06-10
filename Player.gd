@@ -1,5 +1,5 @@
 extends KinematicBody2D
-
+#holi
 const ACCELERATION = 800
 const MAX_SPEED = 300
 const FRICTION = 800
