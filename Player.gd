@@ -1,34 +1,20 @@
-extends Area2D
-export (int) var velocidad;
-var movimiento = Vector2()
-var limite
+extends KinematicBody2D
 
-# Called when the node enters the scene tree for the first time.
-func _ready():
-	pass # Replace with function body.
-	limite = get_viewport_rect().size
+const ACCELERATION = 800
+const MAX_SPEED = 300
+const FRICTION = 800
 
+var velocity = Vector2.ZERO
 
-func _process(delta):
-	movimiento = Vector2()
+func _physics_process(delta):
+	var input_vector = Vector2.ZERO
+	input_vector.x = Input.get_action_strength("ui_right") - Input.get_action_strength("ui_left")
+	input_vector.y = Input.get_action_strength("ui_down") - Input.get_action_strength("ui_up")
+	input_vector = input_vector.normalized()
 	
-	if Input.is_action_pressed("ui_right"):
-		movimiento.x += 1
-	if Input.is_action_pressed("ui_left"):
-		movimiento.x -= 1
-	if Input.is_action_pressed("ui_up"):
-		movimiento.y -= 1
-	if Input.is_action_pressed("ui_down"):
-		movimiento.y += 1
-	if movimiento.length() > 0:
-		movimiento = movimiento.normalized() * velocidad
-		
-	position += movimiento * delta
-	position.x = clamp(position.x, 0, limite.x)
-	position.y = clamp(position.y, 0, limite.y)
+	if input_vector != Vector2.ZERO:
+		velocity = velocity.move_toward(input_vector * MAX_SPEED, ACCELERATION * delta)
+	else:
+		velocity = velocity.move_toward(Vector2.ZERO, FRICTION * delta)
 	
-	if movimiento.x != 0:
-		$Sprite_player.animation = "normal"
-		$Sprite_player.flip_h = movimiento.x < 0
-	
-#	pass
+	velocity = move_and_slide(velocity)
