@@ -12,24 +12,24 @@ animations = [ {
 } ]
 
 [sub_resource type="CapsuleShape2D" id=1]
-radius = 30.4584
+radius = 19.7922
 height = 21.4162
 
 [node name="Player" type="KinematicBody2D"]
-position = Vector2( 159.938, 97.3221 )
-scale = Vector2( 0.800001, 0.8 )
+position = Vector2( 157.938, 93.3221 )
+scale = Vector2( 0.5, 0.5 )
 script = ExtResource( 2 )
-__meta__ = {
-"_edit_group_": true
-}
 
 [node name="Sprite_player" type="AnimatedSprite" parent="."]
-position = Vector2( -39.9444, 21.0955 )
+position = Vector2( -38.6944, 19.8455 )
 scale = Vector2( 0.622011, 0.654243 )
 frames = SubResource( 2 )
 animation = "normal"
 
 [node name="CollisionShape2D" type="CollisionShape2D" parent="."]
-position = Vector2( -39.709, 68.14 )
+position = Vector2( -39.709, 78.14 )
 rotation = -1.5708
 shape = SubResource( 1 )
+__meta__ = {
+"_edit_group_": true
+}
