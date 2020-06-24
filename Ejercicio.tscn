@@ -5,10 +5,10 @@
 [ext_resource path="res://archivos definitivos/sketch_gothic_school/Sketch Gothic School.ttf" type="DynamicFontData" id=4]
 [ext_resource path="res://Ejercicio.gd" type="Script" id=5]
 
-[sub_resource type="DynamicFont" id=2]
+[sub_resource type="DynamicFont" id=1]
 size = 70
 
-[sub_resource type="DynamicFont" id=1]
+[sub_resource type="DynamicFont" id=2]
 size = 70
 font_data = ExtResource( 4 )
 
@@ -30,7 +30,7 @@ margin_left = 286.184
 margin_top = 491.545
 margin_right = 469.184
 margin_bottom = 574.545
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 1 )
 icon = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true,
@@ -44,7 +44,7 @@ margin_left = 2.21605
 margin_top = -1.00003
 margin_right = 1.21584
 margin_bottom = 0.999969
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
 text = "borrar"
 align = 1
 valign = 1
@@ -58,7 +58,7 @@ margin_left = 470.487
 margin_top = 491.545
 margin_right = 653.487
 margin_bottom = 574.545
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 1 )
 icon = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true,
@@ -72,7 +72,7 @@ margin_left = 2.21605
 margin_top = -1.00003
 margin_right = 1.21584
 margin_bottom = 0.999969
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
 text = "listo"
 align = 1
 valign = 1
@@ -86,7 +86,7 @@ margin_left = 101.676
 margin_top = 492.545
 margin_right = 284.676
 margin_bottom = 575.545
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 1 )
 icon = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true,
@@ -100,7 +100,7 @@ margin_left = 2.21605
 margin_top = -1.00003
 margin_right = 1.21584
 margin_bottom = 0.999969
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
 text = "0"
 align = 1
 valign = 1
@@ -114,7 +114,7 @@ margin_left = 102.434
 margin_top = 408.914
 margin_right = 285.434
 margin_bottom = 491.914
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 1 )
 icon = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true,
@@ -128,7 +128,7 @@ margin_left = 2.21605
 margin_top = -1.00003
 margin_right = 1.21584
 margin_bottom = 0.999969
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
 text = "1"
 align = 1
 valign = 1
@@ -142,7 +142,7 @@ margin_left = 285.791
 margin_top = 407.914
 margin_right = 468.791
 margin_bottom = 490.914
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 1 )
 icon = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true,
@@ -156,7 +156,7 @@ margin_left = 2.21605
 margin_top = -1.00003
 margin_right = 1.21584
 margin_bottom = 0.999969
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
 text = "2"
 align = 1
 valign = 1
@@ -170,7 +170,7 @@ margin_left = 469.632
 margin_top = 408.431
 margin_right = 652.632
 margin_bottom = 491.431
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 1 )
 icon = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true,
@@ -184,7 +184,7 @@ margin_left = 2.21605
 margin_top = -1.00003
 margin_right = 1.21584
 margin_bottom = 0.999969
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
 text = "3"
 align = 1
 valign = 1
@@ -198,7 +198,7 @@ margin_left = 100.676
 margin_top = 325.284
 margin_right = 283.676
 margin_bottom = 408.284
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 1 )
 icon = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true,
@@ -212,7 +212,7 @@ margin_left = 2.21605
 margin_top = -1.00003
 margin_right = 1.21584
 margin_bottom = 0.999969
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
 text = "4"
 align = 1
 valign = 1
@@ -226,7 +226,7 @@ margin_left = 285.398
 margin_top = 323.716
 margin_right = 468.398
 margin_bottom = 406.716
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 1 )
 icon = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true,
@@ -240,7 +240,7 @@ margin_left = 2.21605
 margin_top = -1.00003
 margin_right = 1.21584
 margin_bottom = 0.999969
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
 text = "5"
 align = 1
 valign = 1
@@ -254,7 +254,7 @@ margin_left = 469.259
 margin_top = 324.232
 margin_right = 652.259
 margin_bottom = 407.232
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 1 )
 icon = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true,
@@ -268,7 +268,7 @@ margin_left = 2.21605
 margin_top = -1.00003
 margin_right = 1.21584
 margin_bottom = 0.999969
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
 text = "6"
 align = 1
 valign = 1
@@ -282,7 +282,7 @@ margin_left = 101.16
 margin_top = 240.862
 margin_right = 284.16
 margin_bottom = 323.862
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 1 )
 icon = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true,
@@ -296,7 +296,7 @@ margin_left = 2.21605
 margin_top = -1.00003
 margin_right = 1.21584
 margin_bottom = 0.999969
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
 text = "7"
 align = 1
 valign = 1
@@ -310,7 +310,7 @@ margin_left = 285.124
 margin_top = 240.456
 margin_right = 468.124
 margin_bottom = 323.456
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 1 )
 icon = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true,
@@ -324,7 +324,7 @@ margin_left = 2.21605
 margin_top = -1.00003
 margin_right = 1.21584
 margin_bottom = 0.999969
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
 text = "8"
 align = 1
 valign = 1
@@ -338,7 +338,7 @@ margin_left = 469.078
 margin_top = 240.482
 margin_right = 652.078
 margin_bottom = 323.482
-custom_fonts/font = SubResource( 2 )
+custom_fonts/font = SubResource( 1 )
 icon = ExtResource( 3 )
 __meta__ = {
 "_edit_group_": true,
@@ -352,7 +352,7 @@ margin_left = 2.21605
 margin_top = -1.00003
 margin_right = 1.21584
 margin_bottom = 0.999969
-custom_fonts/font = SubResource( 1 )
+custom_fonts/font = SubResource( 2 )
 text = "9"
 align = 1
 valign = 1
@@ -370,6 +370,22 @@ margin_left = -5.25592
 margin_top = -13.0023
 margin_right = -5.90393
 margin_bottom = -13.0823
+custom_fonts/font = SubResource( 3 )
+align = 1
+valign = 1
+__meta__ = {
+"_edit_use_anchors_": false
+}
+
+[node name="Problema" type="Label" parent="."]
+anchor_left = 0.179
+anchor_top = 0.101
+anchor_right = 0.456
+anchor_bottom = 0.36
+margin_left = 0.505081
+margin_top = -0.229229
+margin_right = -0.142944
+margin_bottom = 0.298767
 custom_fonts/font = SubResource( 3 )
 align = 1
 valign = 1
