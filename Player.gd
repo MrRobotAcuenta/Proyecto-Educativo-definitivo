@@ -19,3 +19,10 @@ func _physics_process(delta):
 		velocity = velocity.move_toward(Vector2.ZERO, FRICTION * delta)
 	
 	velocity = move_and_slide(velocity)
+
+	
+
+
+func _on_entrada_body_entered(body):
+	get_tree().change_scene("res://Castillo_interior.tscn")
+

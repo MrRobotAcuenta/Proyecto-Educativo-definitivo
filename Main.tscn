@@ -23,24 +23,24 @@ __meta__ = {
 }
 
 [node name="ButtonHistoria" type="Button" parent="Pantalla de inicio"]
-visible = false
 margin_left = 134.0
 margin_top = 425.0
 margin_right = 353.0
 margin_bottom = 501.0
 icon = ExtResource( 3 )
+flat = true
 script = ExtResource( 6 )
 __meta__ = {
 "_edit_use_anchors_": false
 }
 
 [node name="ButtonDesafio" type="Button" parent="Pantalla de inicio"]
-visible = false
 margin_left = 642.0
 margin_top = 424.0
 margin_right = 856.0
 margin_bottom = 504.0
 icon = ExtResource( 1 )
+flat = true
 script = ExtResource( 7 )
 __meta__ = {
 "_edit_use_anchors_": false
