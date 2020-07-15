@@ -3,7 +3,7 @@
 [ext_resource path="res://Player.tscn" type="PackedScene" id=2]
 [ext_resource path="res://castle_tileset.tres" type="TileSet" id=4]
 
-[node name="Mundo_inicial" type="Node2D"]
+[node name="Castillo_interior" type="Node2D"]
 
 [node name="TileMap" type="TileMap" parent="."]
 tile_set = ExtResource( 4 )
